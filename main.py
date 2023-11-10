@@ -18,7 +18,7 @@ def translate_text(text_translate):
 
 
 # ------------------------Using Whisper Model to transcribe the audio------------------------
-audio = "male.wav"
+audio = "audio_file.mp3"
 text = whisper_model(audio)
 print(f"The audio transcription: {text}")
 
